@@ -9,7 +9,11 @@ import javax.swing.JFrame;
 import javax.swing.Spring;
 
 public class MainFrame extends JFrame implements FormListener {
-	private static final long serislVersionUID = 1L;
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	 
 	private FormPanel formPanel;
 	private TextPanel textPanel;
 	private Controller controller;

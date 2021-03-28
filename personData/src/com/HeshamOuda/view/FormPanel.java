@@ -33,16 +33,23 @@ public class FormPanel extends JPanel implements ActionListener {
 
 		setLayout(new GridBagLayout());
 
-		add(new JLabel("Name: "), new GridBagConstraints(0, 0, 0, 0, 1, 0.3, GridBagConstraints.LINE_END,
-				GridBagConstraints.NONE, new Insets(5, 5, 5, 5), 0, 0));
-
 		GridBagConstraints gConst = new GridBagConstraints();
+
+		gConst.gridy = 0;
+		gConst.gridx = 0;
+		gConst.weightx = 1;
+		gConst.weighty = 0.3;
+		gConst.fill = GridBagConstraints.NONE;
+		gConst.anchor = GridBagConstraints.LINE_END;
+
+		add(new JLabel("Name: "), gConst);
+
 		gConst.gridx++;
 		gConst.gridy = 0;
 		gConst.anchor = GridBagConstraints.LINE_START;
 		add(nameField, gConst);
-
-		// new row
+//
+//		// new row
 
 		gConst.gridy++;
 		gConst.gridx = 0;
@@ -60,9 +67,9 @@ public class FormPanel extends JPanel implements ActionListener {
 
 		// new row
 		gConst.gridx = 0;
-		gConst.gridy++;
+		gConst.gridy = 2;
 		gConst.weightx = 1;
-		gConst.weighty = 10;
+		gConst.weighty = 5;
 		gConst.fill = GridBagConstraints.NONE;
 		gConst.anchor = GridBagConstraints.FIRST_LINE_END;
 

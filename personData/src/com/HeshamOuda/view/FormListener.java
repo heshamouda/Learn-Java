@@ -1,5 +1,13 @@
+/**
+ * 
+ */
 package com.HeshamOuda.view;
 
-public class FormListener {
-
+/**
+ * @author OUDA
+ *
+ */
+public interface FormListener {
+	
+	
 }

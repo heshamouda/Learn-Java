@@ -8,6 +8,6 @@ package com.HeshamOuda.view;
  *
  */
 public interface FormListener {
-	public void oKButtonClicked(String personName, String persOccupation);
+	public void okButtonClicked(String personName, String persOccupation);
 }	
 

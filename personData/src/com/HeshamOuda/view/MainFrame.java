@@ -7,7 +7,6 @@ import javax.swing.JFrame;
 public class MainFrame extends JFrame implements FormListener {
 	private static final long serislVersionUID = 1L;
 	private FormPanel formPanel;
-	private TextPanel textPanel;
-	
+	private TextPanel textPanel;	
 
 }

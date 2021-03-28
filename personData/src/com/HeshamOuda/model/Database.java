@@ -16,7 +16,7 @@ public class Database {
 		this.personData.add(person);
 	}
 
-	public void removeerson(Person person) {
+	public void removePrson(Person person) {
 		this.personData.remove(person);
 	}
 

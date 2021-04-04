@@ -6,8 +6,8 @@ import javax.swing.JLabel;
 import javax.swing.JButton;
 
 public class Button1 {
-	
-	private JButton b = new JButton(new ImageIcon("/java_swing/src/utils/tel.jpg"));  
+	 
+	private JButton b = new JButton();  
 	private JFrame frame;
 	 Button1() {
 		 b = new JButton();

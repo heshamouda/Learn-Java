@@ -3,7 +3,7 @@ package com.HeshamOuda.view;
 import java.awt.Dimension;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
-import java.awt.Insets;
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -48,8 +48,8 @@ public class FormPanel extends JPanel implements ActionListener {
 		gConst.gridy = 0;
 		gConst.anchor = GridBagConstraints.LINE_START;
 		add(nameField, gConst);
-//
-//		// new row
+		//
+		// // new row
 
 		gConst.gridy++;
 		gConst.gridx = 0;

@@ -8,7 +8,7 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
 public class TextPanel extends JPanel {
-	private static final long SerialVersionUID = 1L;
+	// private static final long SerialVersionUID = 1L;
 	private JTextArea textArea;
 
 	public TextPanel() {
